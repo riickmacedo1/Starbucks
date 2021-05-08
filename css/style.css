@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/***************************
+******* header logo ********
+***************************/
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 10px 0;
+}
+
+.menu{
+    width: 90%;
+    text-align: right;
+    padding-top: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+    background-color: #017143;
+    color: white;
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+/****** Final do logo ******/
+
+section .sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extra{
+    position: absolute;
+    bottom: -300px;
+    right: -320px;
+    width: 740px;
+    height: 780px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.extra .img-coffee{
+    height: 450px;
+}
+
+/*********** redes sociais ***********/
+
+.redes-sociais{
+    position: absolute;
+    right: 323px;
+    top: 140px;
+}
+
+.redes-sociais img{
+    display: block;
+    height: 30px;
+    margin: 20px 10px;
+}
+
+h1{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(63, 63, 63);
+}
+
+p{
+    width: 600px;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.button{
+    background-color: #017143;
+    color: white;
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.img-final img{
+    width: 80px;
+    margin-top: 40px;
+}
